@@ -1,0 +1,33 @@
+/* type selectors */
+
+body {
+  background-color: bisque;
+}
+
+li {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* class selectors */
+
+.container {
+  border: 1px solid gray;
+  /* background-color: papayawhip; */
+  /* rgb values of red green and blue from 0 to 255 */
+  /* background-color: rgb(161, 122, 223); */
+  /* a is alpha for opacity, 0 is transparent, 1 fully opaque */
+  background-color: rgba(161, 122, 223, 0.8);
+}
+
+.container-list {
+  /* color: darkslategrey; */
+  /* color: #4cbb17; */
+  color: rgb(76, 187, 23);
+}
+
+/* id selector */
+
+#mate-item {
+  text-decoration: line-through;
+}

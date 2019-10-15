@@ -5,7 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
+      body {
+        background-color: turquoise;
+      }
+    </style> -->
   </head>
+  <!-- <body style="background-color: pink;"> -->
   <body>
     <h1>This is the main heading (block)</h1>
     <h2>This is a secondary heading (block)</h2>
@@ -19,21 +26,22 @@
       </p>
       below
     </div>
-
-    <ul>
-      Lists are block elements. This is an unordered list where there is no
-      particular order for the following items in a shopping list:
-      <li>Pasta</li>
-      <li>Mate</li>
-      <li>Detergent</li>
-    </ul>
-    <ol>
-      This is an ordered list where the order matters:
-      <li>Load the washing machine</li>
-      <li>Add detergent</li>
-      <li>Start program</li>
-      Notice the bullets points have been replaced by numbers
-    </ol>
+    <div class="container container-list">
+      <ul>
+        Lists are block elements. This is an unordered list where there is no
+        particular order for the following items in a shopping list:
+        <li>Pasta</li>
+        <li id="mate-item">Mate</li>
+        <li>Detergent</li>
+      </ul>
+      <ol>
+        This is an ordered list where the order matters:
+        <li>Load the washing machine</li>
+        <li>Add detergent</li>
+        <li>Start program</li>
+        Notice the bullets points have been replaced by numbers
+      </ol>
+    </div>
     <table>
       <tr>
         <th>NAME</th>
@@ -65,7 +73,7 @@
       <button>send</button>
     </form>
     <br />
-    <p>
+    <p class="container">
       This paragraph contains inline elements. This is <em>emphasized</em>, this
       has <strong>strong meaning</strong>. This is a broken image
       <img src="foo" />. <a href="#">Links</a> are also
